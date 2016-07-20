@@ -1,20 +1,5 @@
-html {
-  font-size: 100%;
-  font-weight: normal;
-  -ms-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "liga" 1, "kern" 1;
-  font-feature-settings: "liga" 1, "kern" 1;
-  -webkit-font-kerning: normal;
-  font-kerning: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 body {
-  font-family: 'Roboto', 'Helvetica Neue', 'Roboto Mono';
+  font-family: 'Helvetica Neue', 'Roboto Mono';
   color: #6A747C;
   margin: 0;
   font-size: 1rem;
@@ -22,7 +7,7 @@ body {
 }
 .container {
   width: 90%;
-  max-width: 50rem;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,21 +15,17 @@ h1, h2, h3, h4 {
   color: #1B2731;
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 200;
   /*line-height: 2.9rem;*/
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   font-weight: 200;
 }
 h3 {
   font-weight: 400;
-  /*font-size: 1.5rem;*/
 }
-/*h4 {
-  font-weight: 400;
-}*/
 a {
   color: #0092C0;
   text-decoration: none;
@@ -79,15 +60,12 @@ section {
 }
 .banner {
   background-color: #0092C0;
-  /*background-color: #A0E4FF;*/
   color: #fff;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-top: 14rem;
   overflow: hidden;
 }
-.banner h1,
-.banner h2 {
+.banner h1, .banner h2 {
   color: #fff;
 }
 ::selection {
